@@ -1,7 +1,3 @@
-import logging
-import os
-import sys
-import argparse
 import random
 
 import numpy as np
@@ -10,7 +6,6 @@ import pickle
 import pandas as pd
 from matplotlib import pyplot as plt
 
-from keras import backend as K
 from keras.preprocessing.sequence import pad_sequences
 from sklearn.model_selection import train_test_split
 from sklearn.metrics import fbeta_score, precision_recall_fscore_support, f1_score
