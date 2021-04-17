@@ -10,3 +10,5 @@
 - To check a title is a clickbaity or not run `python3 script.py` and give clickbait title as input from stdin. 
 
 - Note: That our model has been trained predominantly on abcnews and buzzfeed data.
+
+- Please install dependencies from requirements.txt `pip install -r requirements.txt`
